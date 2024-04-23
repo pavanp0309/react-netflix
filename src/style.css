@@ -1,0 +1,74 @@
+/* universal styling */
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar>.container-fluid>.navbar-nav{
+    background-color: transparent;
+}
+.bg-blacked{
+    background-color: #1c1a1af4;
+    color: #fffffff3 !important;
+}
+.navbar.bg-transparent{
+    background-color: transparent !important;
+    color: #fffffff3 !important;
+}
+.nav-item>.nav-link{
+    color: #fffffff3 !important;
+}
+.nav-item>.bi{
+    color: #fffffff3 !important;
+}
+
+
+
+/* row stylings*/
+.transparent>.arrowleft{
+    color: white;
+    width:50px;
+    height: 150px;
+
+   
+}
+.transparent>.arrowright{
+    color: white;
+    width:50px;
+    height: 150px;
+}
+.transparent{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.transparent:hover .arrowleft{
+  background-color: rgba(240, 248, 255, 0.162);
+  visibility: visible;
+}
+.transparent:hover .arrowright{
+    background-color: rgba(240, 248, 255, 0.162);
+    visibility: visible;
+}
+.arrowleft,.arrowright{
+    visibility: hidden;
+}
+.banner{ 
+    background-position:center center;
+    background-size: cover;
+    width: 100%;
+}
+#info-container{
+ position: relative;
+}
+.info{
+    position: absolute;
+    top:500px;
+    background-color: transparent;
+}
+.info>h3,p,.d-grid{
+    background-color: transparent;
+    color: white;
+}
